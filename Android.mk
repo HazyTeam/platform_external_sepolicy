@@ -38,7 +38,7 @@ build_policy = $(foreach type, $(1), \
       ) \
     ) \
   ) \
-))
+)
 
 sepolicy_build_files := security_classes \
                         initial_sids \
